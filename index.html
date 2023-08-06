@@ -1,28 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://kit.fontawesome.com/51cb57840f.js" crossorigin="anonymous"></script>
     <title>Tr3ble Site</title>
 </head>
-    <title>Portfolio</title>
 <body>
 
-<figure class="avatar-box">
-    <img src="assets/img/cat.jpg" alt="Tr3ble" width="100">
-</figure>
+<header class="l-header">
+    <nav class="nav bd-grid">
 
-<div class="info-content">
-    <h1 class="name" title="Tr3ble">Tr3ble</h1>
+        <div>
+            <a href="#" class="nav__logo">Tr3ble</a>
+        </div>
 
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            </ul>
+        </div>
 
-    <p class="title">Frontend developer</p>
-</div>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+</header>
 
+    <main class="l-main">
+        <section class="home bd-grid" id="home2">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Tr3ble</span>
+                   <h2 class="typed-out">Web Developer</h2>
+                </h1>
+            </div>
+
+            <div class="home__social">
+                <a href="https://github.com/y9tr3ble" class="home__social-icon"><i class='fa-brands fa-github'></i></a>
+                <a href="http://t.me/y9tr3ble" class ="home__social-icon"><i class='fa-brands fa-telegram' ></i></a>
+            </div>
+
+        </section>
+
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/cat2.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Nikita Tr3ble</h2>
+                    <p class="about__text">My name is Nikita Novikov. I live in City: Kaliningrad (In the future I will move to St. Petersburg). Languages: English, Russian</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<footer class="footer">
+    <p class="footer__title">Made with ❤️</p>
+    <p class="footer__copy">&#169; Tr3ble</p>
+</footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/index.js"></script>
-</body>
+    </body>
 </html>
